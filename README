@@ -1,0 +1,213 @@
+# 🎬 YouTube UI Assignment (Frontend Evaluation Template)
+
+## 🎯 Objective
+
+Build a **YouTube homepage UI** using HTML and CSS.
+
+This repository is designed as a **frontend coding assignment system**, where your solution will be **automatically evaluated using GitHub Actions**.
+
+---
+
+## 🧠 How This Project Works
+
+This repository acts like a **UI coding challenge platform**:
+
+1. You are given a **starter template**
+2. You complete the UI
+3. You push your code to GitHub
+4. **Automated tests run**
+5. You get **PASS or FAIL**
+
+---
+
+## 📁 Where You Should Work
+
+👉 You ONLY need to edit:
+
+```
+public/index.html
+```
+
+⚠️ Do NOT modify:
+
+* `tests/` → contains evaluation logic
+* `.github/` → contains CI system
+* `package.json` → dependencies
+
+---
+
+## 🧩 Requirements
+
+You must implement the following sections:
+
+---
+
+### 🔹 1. Navbar
+
+* Class: `.navbar`
+* Must include:
+
+  * Logo or text
+  * Search input (`<input>`)
+
+---
+
+### 🔹 2. Sidebar
+
+* Class: `.sidebar`
+* Must include:
+
+  * At least **3 menu items**
+
+---
+
+### 🔹 3. Video Section
+
+* Class: `.video-grid`
+* Must contain at least **4 video cards**
+
+---
+
+### 🔹 4. Video Card Structure
+
+Each video must include:
+
+* `.video-card`
+* `.video-thumbnail` (image or placeholder)
+* `.video-title`
+* `.video-channel`
+
+---
+
+## ⚠️ Important Rules
+
+* Use EXACT class names (case-sensitive)
+* Do NOT rename classes
+* Do NOT remove required structure
+* Minimum requirements must be met
+
+---
+
+## 🧪 Evaluation (Automatic Testing)
+
+Your code will be automatically checked for:
+
+* Navbar exists
+* Search input exists
+* Sidebar exists
+* Video grid exists
+* Minimum 4 video cards
+* Each video has:
+
+  * Title
+  * Channel name
+
+---
+
+## ⚙️ GitHub Actions (Auto Check System)
+
+After you push your code:
+
+* GitHub will automatically run tests
+* No manual checking needed
+* Results will appear in the **Actions tab**
+
+---
+
+## 🚀 How to Submit Your Solution
+
+### Step 1: Make your changes
+
+Edit:
+
+```
+public/index.html
+```
+
+---
+
+### Step 2: Add your changes
+
+```bash
+git add .
+```
+
+---
+
+### Step 3: Commit your work
+
+```bash
+git commit -m "Completed YouTube UI assignment"
+```
+
+---
+
+### Step 4: Push to GitHub
+
+```bash
+git push
+```
+
+---
+
+## 📊 How to Check Results
+
+1. Go to your repository on GitHub
+2. Click on the **Actions** tab
+3. Open the latest workflow run
+
+---
+
+### Result Meaning:
+
+* 🟢 **PASS** → Your UI is correct
+* 🔴 **FAIL** → Some requirements are missing
+
+---
+
+## 🛠️ Debugging Tips
+
+If your tests fail:
+
+* Check class names carefully
+* Ensure all required elements exist
+* Make sure you have at least 4 video cards
+* Read error messages in Actions logs
+
+---
+
+## 💡 Example Mistakes
+
+❌ Wrong:
+
+```
+<div class="nav"></div>
+```
+
+✅ Correct:
+
+```
+<div class="navbar"></div>
+```
+
+---
+
+## 🔥 Project Purpose
+
+This project simulates:
+
+* Frontend hiring assignments
+* Bootcamp evaluations
+* Real-world UI testing workflows
+
+---
+
+## 🚀 Final Goal
+
+Your goal is simple:
+
+> ✔ Make ALL test cases PASS
+
+---
+
+Good luck building your YouTube UI 🚀
